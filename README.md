@@ -1,1 +1,1 @@
-I will add later.
+Used tech: React,Vite,Framer Motion
