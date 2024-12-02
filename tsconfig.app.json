@@ -18,7 +18,10 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    "allowJs": true,     // Allows JavaScript files to be part of the project
+    "checkJs": false 
   },
   "include": ["src"]
 }
