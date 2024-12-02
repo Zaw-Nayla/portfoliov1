@@ -1,6 +1,5 @@
 import { useRef } from "react";
 import { crater, mountain3, mountain4, planet, spaceman, stars, sun } from "../assets";
-// import SpacemanCanvas from "./CharModel"
 import Position from "./Position";
 import {
   motion,
