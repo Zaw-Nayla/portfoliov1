@@ -20,7 +20,7 @@ const Hero = () => {
   const montain2y = useParallax(scrollYProgress, "10%")
   return (
     <section className="parallax" ref={ref}>
-      <motion.div style={{y:texty}} className='parallax__content absolute  top-[2%] md:top-[5%] lg:top-[10%] w-full mx-auto pl-[5vw]  z-10'>
+      <motion.div style={{y:texty}} className='parallax__content absolute  top-[2%] md:top-[5%] lg:top-[10%] w-full mx-auto pl-[5vw]  z-10 transform-none'>
           <h1 className='font-medium text-white text-[20px] xs:text-[30px] sm:text-[20px] md:text-[30px] lg:text-[60px] 2xl:text-[140px] leading-[80px] 2xl:leading-[140px]'>
            Zaw Nay La
           </h1>
