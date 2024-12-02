@@ -19,7 +19,7 @@ const Position = () => {
           {produceSpans("Software Developer", "animate-textRotate1")}
         </div>
         <div className="text second absolute flex" aria-label="Peaceful Wanderer">
-          {produceSpans("Peaceful Wanderer", "animate-textRotate2")}
+          {produceSpans("Peaceful Wanderer", "animate-textRotate2 ")}
         </div>
       </div>
     </div>
