@@ -216,5 +216,15 @@
   height: 0.5em;
   margin-left:0.5rem;
   
-  margin-right: 0.5em; /* Space between bullet and text */
+  margin-right: 0.5em; 
+}
+
+.hidden-initially {
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+}
+
+.show-after-delay {
+  opacity: 1;
+  transition-delay: 2s;
 }

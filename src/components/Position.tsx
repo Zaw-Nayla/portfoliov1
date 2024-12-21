@@ -1,4 +1,4 @@
-
+import'../App.css';
 const produceSpans = (text: string, animation: string) => {
   return text.split("").map((letter, index) => (
     <span
@@ -18,7 +18,7 @@ const Position = () => {
         <div className="text first absolute  flex" aria-label="Software Developer">
           {produceSpans("Software Developer", "animate-textRotate1")}
         </div>
-        <div className="text second absolute flex" aria-label="Peaceful Wanderer">
+        <div className="text second absolute flex hidden-initially show-after-delay" aria-label="Peaceful Wanderer">
           {produceSpans("Peaceful Wanderer", "animate-textRotate2 ")}
         </div>
       </div>
